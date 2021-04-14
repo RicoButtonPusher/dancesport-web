@@ -1,0 +1,88 @@
+.footer-container {
+  bottom: 0;
+  left:0;
+  bottom:0;
+  height: auto;
+  width: auto;
+  padding: 10px;
+  background-color: steelblue;
+}
+
+.column-title {
+  margin-bottom: 10px;
+  background-color: rgba(247, 6, 54, 0.767);
+  padding: 4px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.extra-links {
+  background-color: teal;
+  justify-content: center;
+  display: grid;
+}
+
+.extra-links-columns {
+  display: flex;
+}
+
+.extra-links-column {
+  background-color: darkblue;
+  color: white;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.extra-link {
+  padding: 5px;
+  font-size: 0.9rem;
+}
+
+.extra-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer-social-media-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-social-media-links {
+  background-color: orange;
+  padding: 10px;
+  display: flex;
+}
+
+.footer-social-media-link {
+  background-color: rgb(235, 233, 233);
+  padding: 5px;
+}
+
+.newsletter-container {
+  display: flex;
+  float: right;
+  background-color: purple;
+  padding: 10px;
+}
+
+.invite {
+  background-color: black;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.sign-up-button {
+  background-color: black;
+  padding: 10px;
+}
+
+.NDCA-logo {
+  width: 35%;
+  background-color: white;
+  padding: 15px;
+}

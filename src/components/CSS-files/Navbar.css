@@ -1,0 +1,131 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  
+}
+
+.logo {
+  padding: 25px;
+}
+
+.logo-photo {
+  max-width: 450px;
+  color: white;
+}
+
+.links-dates {
+  padding-top: 25px;
+}
+
+.social-links {
+  display: flex;
+  margin-left: 35px;
+}
+
+.social-link {
+  padding: 4px;
+  color: white;
+}
+
+.social-link:hover {
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  animation: change 0.4s;
+}
+
+@keyframes change {
+  0% {color: white; background-color: black;}
+  100% {color:black; background-color: white}
+}
+
+.menu-bar {
+  visibility: hidden;
+  /* visibility:unset; */
+}
+
+.icon {
+  color: white;
+  padding: 4px;
+}
+
+.dates {
+  float: right;
+  padding: 10px;
+  white-space: nowrap;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 25px;
+}
+
+.menu-bar {
+  color: white;
+  display: none;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  border-top: 2px solid white;
+  padding: 2px;
+}
+
+.navbar-links-left {
+  margin-left: 20px;
+  display: flex;
+}
+
+.navbar-link-left {
+  padding: 20px;
+  margin-right: 5px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.7rem;
+  font-weight: 450;
+}
+
+.navbar-link-left:hover {
+  padding: 17px;
+  border-top: 3px solid transparent;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid white;
+}
+
+.navbar-link-left:active {
+  border-bottom: 3px solid black;
+}
+
+.navbar-links-right {
+  display: flex;
+  margin-right: 15px;
+}
+
+.navbar-link-right {
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+  background-color: transparent;
+  font-size: 1.7rem;
+  font-weight: 450;
+  cursor: pointer;
+  border: none;
+}
+.navbar-link-right:hover {
+  padding: 17px;
+  border-top: 3px solid black;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  border-bottom: 3px solid white;
+}
+
+.navbar-link-right:active {
+  border-bottom: 3px solid black;
+}
+
+@keyframes fade {
+  0% {background-color: black;}
+  100% {background-color: rgb(73, 73, 73);}
+}

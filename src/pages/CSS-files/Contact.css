@@ -1,0 +1,61 @@
+.contact-container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  padding: 25px;
+}
+
+.contact-form {
+  background-color: lightblue;
+  padding: 30px;
+}
+
+.contact-headline {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-top: 2px solid white;
+}
+
+.contact-name {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact-email {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact-subject {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact-message {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.button {
+  align-items: flex-end;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.message-sent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}

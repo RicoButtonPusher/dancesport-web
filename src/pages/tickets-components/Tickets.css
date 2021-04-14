@@ -1,0 +1,177 @@
+.tickets-body {
+  /* display: grid; */
+  margin-left: 50px;
+  width: auto;
+}
+
+.tickets-container {
+  display: flex;
+  /* margin-left: 50%; */
+  /* transform: translate(-50%, 0%); */
+  width: 1290px;
+  background-color: darkslateblue;
+  padding: 50px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.seats-container {
+  background-color: blanchedalmond;
+  padding: 30px;
+  display: flex;
+  width: auto;
+}
+
+.seats-container-left-side {
+  display: grid;
+  background-color: black;
+  padding: 10px;
+  margin-right: 30px;
+}
+
+.seats-top-left {
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  background-color: cornflowerblue;
+  padding: 10px;
+}
+
+.seats-bottom-left {
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  background-color: darkgoldenrod;
+  padding: 10px;
+}
+
+.seats-container-middle {
+  display: flex;
+}
+
+.seats-middle-left-side {
+  background-color: black;
+  display: grid;
+}
+
+.seats-middle-left-side-sections {
+  display: grid;
+  background-color: black;
+  padding: 10px;
+}
+
+.seats-middle-left-side-top {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+}
+
+.seats-middle-left-side-bottom {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+}
+
+.seats-middle-center {
+  display: grid;
+}
+
+.seats-middle-center-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: chocolate;
+}
+
+.floor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+  padding: 10px;
+  margin-top: 12px;
+  margin-left: 14px;
+}
+
+.seats-middle-center-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: chocolate;
+}
+
+.seats-middle-right-side {
+  display: grid;
+  background-color: black;
+}
+
+.seats-middle-right-side-sections {
+  display: grid;
+  padding: 10px;
+}
+
+.seats-middle-right-side-top {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: pink;
+}
+.seats-middle-right-side-bottom {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+}
+
+.seats-container-right-side {
+  display: grid;
+  background-color: black;
+  padding: 10px;
+  margin-left: 30px;
+}
+
+.seats-top-right {
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  background-color: cornflowerblue;
+}
+
+.seats-bottom-right {
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  background-color: darkgoldenrod;
+}
+
+.seats-container-bottom-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: silver;
+  width: 1290px;
+  margin-left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.seats-container-bottom-left {
+  display: flex;
+  background-color: springgreen;
+  padding: 10px;
+}
+
+.seats-container-bottom-right {
+  display: flex;
+  background-color: orange;
+  padding: 10px;
+}
+
+.tickets-cart-container {
+  margin-left: 10%;
+  background-color: tan;
+  padding: 30px;
+}

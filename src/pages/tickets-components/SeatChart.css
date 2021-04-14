@@ -1,0 +1,43 @@
+h1 {
+  text-align: center;
+}
+
+.container {
+  width: 120px;
+  /* margin-left: 50px; */
+}
+
+.grid td {
+  padding: 2px 2px;
+  border: 2px solid black;
+  float: left;
+  margin: 5px;
+  font-size: 12px;
+}
+
+.grid td:hover {
+  opacity: .7;
+  cursor: pointer;
+}
+
+.reserved {
+  background-color: black;
+  color: #fff;
+  display: inline-block;
+}
+
+.reserved::after {
+  content: 'RESERVED';
+}
+
+.available::after {
+  content: 'AVAILABLE'
+}
+
+.available {
+  color: #333;
+}
+
+li {
+  list-style: none;
+}
