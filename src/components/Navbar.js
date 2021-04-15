@@ -77,7 +77,7 @@ function Navbar() {
             <Button className="menu-bar" onClick={handleClick}>
               {click ? <ClearIcon fontSize="large" className="icon"/> : <MenuIcon fontSize="large" className="icon"/>}
             </Button>
-            {/* mobile menu bar line */}
+            {/* mobile menu bar */}
 
 
 
