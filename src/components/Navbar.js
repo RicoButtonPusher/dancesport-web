@@ -33,7 +33,7 @@ function Navbar() {
 
   return (
     <div>
-      <div className="navbar-container">
+      {/* <div className="navbar-container">
         <Link to="/" className="logo">
           <img src="https://dvida.com/wp-content/uploads/2020/12/DVIDA2020_wht.png" alt="article-img" className="logo-photo"/>
         </Link>
@@ -56,12 +56,12 @@ function Navbar() {
             February 11, 2021
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="navbar">
+      {/* <div className="navbar">
         <div className="navbar-links">
           <div className="navbar-links-left">
-            <Link to="/home" className="navbar-link-left">
+            <Link to="/home" className="navbar-link-left home-button">
               Home
             </Link>
             <div className="navbar-link-left dropdown">
@@ -73,11 +73,9 @@ function Navbar() {
 
 
 
-            {/* mobile menu bar */}
             <Button className="menu-bar" onClick={handleClick}>
               {click ? <ClearIcon fontSize="large" className="icon"/> : <MenuIcon fontSize="large" className="icon"/>}
             </Button>
-            {/* mobile menu bar */}
 
 
 
@@ -92,7 +90,31 @@ function Navbar() {
             {isOpen && <PopUp content={<><Contact/></>} handleClose={togglePopup}/>}
           </div>
         </div>
+      </div> */}
+
+      <div className="navbar">
+        <div className="navbar-links">
+          <Link to="/" className="navbar-logo">
+            <img src="https://dvida.com/wp-content/uploads/2020/12/DVIDA2020_wht.png" alt="article-img" className="navbar-logo-photo"/>
+          </Link>
+          <Link to="/home" className="navbar-link-left home-button">Home</Link>
+            <div className="navbar-link-left dropdown">
+              <EventDropdown/>
+          </div>
+          <Link to="/registration" className="navbar-link-left">Registration</Link>
+          <div className="popup-button">
+            <input
+              className="navbar-link-right"
+              type="button"
+              value="Contact Us"
+              onClick={togglePopup}
+            />
+            {isOpen && <PopUp content={<><Contact/></>} handleClose={togglePopup}/>}
+          </div>
+        </div>
       </div>
+
+
     </div>
   )
 }

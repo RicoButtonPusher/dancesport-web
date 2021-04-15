@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import FacebookIcon from '@material-ui/icons/Facebook';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import YouTubeIcon from '@material-ui/icons/YouTube';
+import TwitterIcon from '@material-ui/icons/Twitter';
 import './CSS-files/EventSection.css';
 import { Button } from '@material-ui/core';
 
@@ -12,7 +13,7 @@ function EventSection() {
   return (
     <div className="event-section-container">
 
-      <div className="title-container">
+      {/* <div className="title-container">
         <div className="title">
           <div className="comp-title">
             Dancesport Competition
@@ -24,17 +25,40 @@ function EventSection() {
             Paris, Idaho
           </div>
         </div>
-        
-      </div>
+      </div> */}
 
-      <div className="news-container">
-        <div className="news-links">
-          <Link to="/news" className="news-link">
-            News 
-          </Link>
+
+      <div className="new-title-container">
+        <div className="new-title">
+          <div className="new-comp-date">
+            FEB 11, 2021
+          </div>
+          <div className="new-comp-title">
+            <text>DANCESPORT WEB</text>
+          </div>
+          <div className="new-social-links">
+            <a href="https://www.facebook.com" className="new-social-link">
+              <FacebookIcon fontSize="large"/>
+            </a>
+            <a href="https://www.instagram.com" className="new-social-link">
+              <InstagramIcon fontSize="large"/>
+            </a>
+            <a href="https://www.youtube.com" className="new-social-link">
+              <YouTubeIcon fontSize="large" />
+            </a>
+            <a href="https://www.twitter.com" className="new-social-link"><TwitterIcon fontSize="large" /></a></div>
+          <div className="new-comp-location">San Jose, CA</div>
+          <div className="news-container">
+            <div className="news-links">
+              <Link to="/news" className="news-link">
+                News 
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
-
+      
+      
       <div className="event-links-container">
         <div className="event-links">
           <Link to="/register" className="event-link">
@@ -66,4 +90,4 @@ function EventSection() {
   )
 }
 
-export default EventSection
+export default EventSection;
