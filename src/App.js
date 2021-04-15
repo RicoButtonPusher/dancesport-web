@@ -5,10 +5,8 @@ import Officials from './pages/Officials';
 import News from './pages/News';
 import Schedule from './pages/Schedule';
 import Tickets from './pages/Tickets';
-import Contact from './pages/Contact';
-
-
-import React, {useState} from 'react';
+import React from 'react';
+import Article from './pages/Article';
 
 
 function App() {
@@ -24,7 +22,7 @@ function App() {
         <Route path="/schedule" exact component={Schedule} />
         <Route path="/tickets" exact component={Tickets} />
         <Route path="/news" exact component={News} />
-        {/* <Route path="/contact" exact component={Contact}/> */}
+        <Route path="/news/:id" exact component={Article} />
       </Switch>
     </Router>
     </>

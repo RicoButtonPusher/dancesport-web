@@ -31,7 +31,7 @@ import latestNews from '../components/backend-data/latestNews';
       <>
         <div className="news--article-container">
           <div className="news-article">
-            <Link to={"/" + id} className="news-article-title">
+            <Link to={"/news/" + id} className="news-article-title">
               {title} updating
             </Link>
             <div className="news-article-text"> {text} </div>
