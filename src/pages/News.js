@@ -25,7 +25,7 @@ import latestNews from '../components/backend-data/latestNews';
   }
 
 
-
+ 
   const NewsList = ({id, title, date, publishedBy, image, text}) => {
     return (
       <>
