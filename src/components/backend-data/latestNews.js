@@ -22,7 +22,7 @@ const latestNews = [
     },
     publishedBy: 'Parker',  
     image: "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/16649149_10210815431533794_5743875598464364439_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=ceGp7A9-z9MAX8TfR9K&_nc_ht=scontent-sjc3-1.xx&oh=a2babf326a5acca3f77578365281eebd&oe=606F3192",
-    text: "Back in 2020, Stacey and Parker acquired an online student who was frankly the devil of the Bay. During the pandemic, Stacey made herself a home studio and this student constantly demanded that Parker use her studio even though it wasn't his studio to use for himself in the first place."
+    text: "Back in 2020, Stacey and Parker acquired an online student who was extremely inconsiderate. During the pandemic, Stacey made herself a home studio and this student constantly demanded that Parker use her studio even though it wasn't his studio to use for himself in the first place."
   },
 ];
 
