@@ -9,7 +9,7 @@ function Registration() {
     <>
       <Navbar/>
       <div className="register">
-        Register Here
+        Register Here (in progress)
       </div>
       <Footer/>
     </>

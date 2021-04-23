@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   background-color: black;
-  
 }
 
 .logo {
@@ -49,7 +48,7 @@
   color: white;
   padding: 4px;
 }
-
+/* 
 .dates {
   float: right;
   padding: 10px;
@@ -57,41 +56,43 @@
   color: white;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 25px;
-}
+} */
 
-.menu-bar {
+/* .menu-bar {
   color: white;
   display: none;
-}
+} */
 
 .navbar-links {
   display: flex;
   justify-content: space-between;
-  background-color: black;
-  border-top: 2px solid white;
-  padding: 2px;
+  background-color: none;
+  margin: 2% 18%;
 }
 
 .navbar-links-left {
-  margin-left: 20px;
+  /* margin-left: 20px; */
   display: flex;
 }
 
 .navbar-link-left {
-  padding: 20px;
-  margin-right: 5px;
+  padding: 14px;
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 1.7rem;
   font-weight: 450;
+  cursor: pointer;
+  transition: .16s;
 }
 
 .navbar-link-left:hover {
-  padding: 17px;
-  border-top: 3px solid transparent;
-  border-left: 3px solid transparent;
-  border-right: 3px solid transparent;
-  border-bottom: 3px solid white;
+  color: white;
+  /* padding: 11px; */
+  /* border: 3px solid black; */
+  /* border-top: 3px solid black; */
+  /* border-left: 3px solid black; */
+  /* border-right: 3px solid black; */
+  /* border-bottom: 3px solid white; */
 }
 
 .navbar-link-left:active {
@@ -100,32 +101,46 @@
 
 .navbar-links-right {
   display: flex;
-  margin-right: 15px;
+  /* margin-right: 15px; */
 }
 
 .navbar-link-right {
-  padding: 20px;
+  padding: 14px;
   text-decoration: none;
-  color: white;
+  color: black;
   background-color: transparent;
   font-size: 1.7rem;
   font-weight: 450;
+  transition: .16s;
+
   cursor: pointer;
   border: none;
 }
 .navbar-link-right:hover {
-  padding: 17px;
-  border-top: 3px solid black;
-  border-left: 3px solid black;
-  border-right: 3px solid black;
-  border-bottom: 3px solid white;
+  /* padding: 11px;
+  border: 3px solid black; */
+  color: white;
+  /* border-top: 3px solid black; */
+  /* border-left: 3px solid black; */
+  /* border-right: 3px solid black; */
+  /* border-bottom: 3px solid white; */
 }
 
 .navbar-link-right:active {
-  border-bottom: 3px solid black;
+  border-bottom: 4px solid black;
 }
 
 @keyframes fade {
   0% {background-color: black;}
   100% {background-color: rgb(73, 73, 73);}
+}
+
+
+.navbar-logo {
+  padding: 10px;
+}
+
+.navbar-logo-photo {
+  max-width: 200px;
+  background-color: black;
 }
